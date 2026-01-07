@@ -11,9 +11,16 @@ document.body.style.background = 'black'
 const imagem = document.querySelector('img')
 
 // Verifica se a imagem existe antes de tentar manipulá-la
-if(imagem){
+if (imagem) {
     imagem.style.filter = 'grayscale(100%)'
-    imagem.style.visibility = 'hidden'    
+    imagem.style.visibility = 'hidden'
+}
+
+// Exemplo 4: Alterando texto de um elemento específico
+const titulo = document.querySelector('span.bstn-hl-title')
+
+if (titulo) {
+    titulo.innerText = 'Davi é bonitão, aponta G1'
 }
 
 // Obs: esses comandos foram inicialmente demonstrados no console do navegador
